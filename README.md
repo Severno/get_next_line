@@ -59,7 +59,14 @@ Allowed functions are `read`, `malloc` and `free`. Everything else is forbidden.
 ### Using the project
 The project must be submitted without both a Makefile and a main. A main has been supplied but you can use your own. To compile first run:
 ```console
-cd libft/; make; cp libft.a ..; cd ..; gcc main.c get_next_line.c -I get_next_line.h libft.a -o run_gnl; ./run_gnl big_bang.txt
+git clone https://github.com/Severno/get_next_line
+cd get_next_line/
+cd libft/
+make
+cp libft.a ..
+cd ..
+gcc main.c get_next_line.c -I get_next_line.h libft.a -o run_gnl
+./run_gnl big_bang.txt
 ```
 
 This will compile **run_gnl**. Execute with a file as a parameter. If you modify the main to call `get_next_line` with `fd` parameter set to 0, get_next_line will wait for input on `stdin`
