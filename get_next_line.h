@@ -16,6 +16,9 @@
 # include "libft/libft.h"
 # include <fcntl.h>
 
+# define RED "\033[1;31m"
+# define END "\033[0;0m"
+
 # define BUFF_SIZE 8
 # define MAX_FD 65536
 
