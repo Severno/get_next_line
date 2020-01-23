@@ -4,6 +4,7 @@
 100/100
 ##### Bonus
 25/25
+![Score](Score.png)
 ***
 ### Challenge
 
